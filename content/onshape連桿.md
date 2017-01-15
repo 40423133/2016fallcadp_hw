@@ -1,4 +1,4 @@
-Title: 40423133 組合圖
+Title: 40423133 onshape連桿
 Date: 2016-10-6 11:00
 Category: HW
 Tags: 作業
@@ -8,5 +8,6 @@ Author: 40423133
 
 <!-- PELICAN_END_SUMMARY -->
 
+  
 
-<iframe src="./../data/1222.html"width="800"height="600"/></iframe>
+

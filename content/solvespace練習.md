@@ -7,6 +7,7 @@ Author: 40423133
 
 
 <!-- PELICAN_END_SUMMARY -->
+
 ##sovlespace
 
 ###1.parts(零件繪製)
@@ -21,15 +22,38 @@ When we hover the mouse over any entity, constraint, or other object in the sket
 
 ##Extrude (平行長出)
 
-<iframe src="./../data/1.html"width="800"height="600"/></iframe>
+<iframe src="./../data/長出.html"width="800"height="600"/></iframe>
 
 ##Extrude (除料)
 
-<iframe src="./../data/2.html"width="800"height="600"/></iframe>
+<iframe src="./../data/除料.html"width="800"height="600"/></iframe>
 
 ##Lathe (旋轉繞行長出或除料)
 
-<iframe src="./../data/40423133.html"width="800"height="600"/></iframe>
+<iframe src="./../data/環繞.html"width="800"height="600"/></iframe>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Thos_zDqEx4" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j12mmas0tL4" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fNTrXUZXMVI" frameborder="0" allowfullscreen></iframe>
+
+
+### 2. Assembly (零件組立)
+
+<iframe src="./../data/箱子盒子.html"width="1000"height="600"/></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mh5Gij-yq5M" frameborder="0" allowfullscreen></iframe>
+
+### 3. Linkages (fourbar & multilink) (四連桿與多連桿運動模擬)
+
+<img src="./../data/多連桿.png"width="800"/>
+<img src="./../data/多連桿-2.png"width="800"/>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-AhsfYmta3s" frameborder="0" allowfullscreen></iframe>
+
+
 
 
 
