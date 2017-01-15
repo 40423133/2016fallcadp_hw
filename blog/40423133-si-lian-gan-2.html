@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>40423133 四連桿路徑 - 2016Fall 課程網誌 (虎尾科大MDE)</title>
+    <title>40423133 四連桿-2 - 2016Fall 課程網誌 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -166,15 +166,15 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
-<link rel="canonical" href="./40423133-si-lian-gan-lu-jing.html">
+<link rel="canonical" href="./40423133-si-lian-gan-2.html">
 
         <meta name="author" content="40423133" />
         <meta name="keywords" content="作業" />
 
         <meta property="og:site_name" content="2016Fall 課程網誌 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="40423133 四連桿路徑"/>
-        <meta property="og:url" content="./40423133-si-lian-gan-lu-jing.html"/>
+        <meta property="og:title" content="40423133 四連桿-2"/>
+        <meta property="og:url" content="./40423133-si-lian-gan-2.html"/>
         <meta property="og:description" content=""/>
         <meta property="article:published_time" content="2016-10-06" />
             <meta property="article:section" content="HW" />
@@ -289,10 +289,10 @@ init_mathjax();
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./40423133-si-lian-gan-lu-jing.html"
+                    <a href="./40423133-si-lian-gan-2.html"
                        rel="bookmark"
-                       title="Permalink to 40423133 四連桿路徑">
-                        40423133  四連桿路徑
+                       title="Permalink to 40423133 四連桿-2">
+                        40423133  四連桿-2
                     </a>
                 </h1>
             </header>
@@ -320,13 +320,11 @@ init_mathjax();
 <img src="./../data/四連桿-2.png"width="800"/></p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5kP5zsb9p38" frameborder="0" allowfullscreen></iframe>
 
-<!-- 導入 Brython 標準程式庫 -->
+<!-- 導入 brython.js -->
 
-<script type="text/javascript" 
-    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
-</script>
+<script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"></script>
 
-<!-- 啟動 Brython -->
+<!-- 啟動 brython() -->
 
 <script>
 window.onload=function(){
@@ -334,7 +332,7 @@ brython(1);
 }
 </script>
 
-<!-- 以下實際利用  Brython 畫兩條直線 -->
+<!-- 以下利用 Brython 程式執行繪圖 -->
 
 <canvas id="fourbar" width="600" height="600"></canvas>
 
@@ -349,7 +347,7 @@ canvas = doc["fourbar"]
 container1 = doc['container1']
 ctx = canvas.getContext("2d")
 
-fourbar_data = open("./../w7/w10.csv").read()
+fourbar_data = open("./../data/四連桿2.csv").read()
 fourbar_list = fourbar_data.splitlines()
 #container1 <= fourbar_list[0]
 # 以下可以利用 ctx 物件進行畫圖
@@ -422,8 +420,8 @@ ctx.closePath()
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./40423133-si-lian-gan-lu-jing.html">
-                            40423133  四連桿路徑
+                        <a href="./40423133-si-lian-gan-2.html">
+                            40423133  四連桿-2
                         </a>
                     </li>
                 </ul>
